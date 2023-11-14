@@ -1,0 +1,48 @@
+<!-- <div class="container">
+    <div class="content">
+        <div class="header">
+            <h1>File Upload</h1>
+        </div>
+        <div class="row">
+            <div class="col-med-6"></div>
+            <div class="col-med-6">
+                <form action="/api/upload" method="post" enctype="multipart/form-data">
+                    <div class="input-group mb-3">
+                        <input class="form-control upload" id="formFileLg" type="file" (change)="onFileChange($event)" />
+                        <button class="btn btn-outline-secondary" id="formFileLg"  (click)="onUpload()">
+                            Subir
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-med-6"></div>
+        </div>
+    </div>
+</div> -->
+
+<div class="container">
+    <div class="content">
+        <div class="header">
+            <h1>Subir archivos</h1>
+        </div>
+        <div class="row">
+            <div class="col-med-6"></div>
+            <div class="col-med-6">
+                    <div class="input-group mb-3">
+                        <input class="form-control upload" id="formFileLg" type="file" (change)="onFileChange($event)" />
+                        <button class="btn btn-outline-secondary" id="formFileLg"  (click)="onUpload()">Subir</button>
+                    </div>
+            </div>
+            <div class="col-med-6"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <form action="/upload" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+      <input type="file" class="form-control-file" name="uploaded_file">
+      <input type="text" class="form-control" placeholder="Number of speakers" name="nspeakers">
+      <input type="submit" value="Get me the stats!" class="btn btn-default">
+    </div>
+  </form> -->
